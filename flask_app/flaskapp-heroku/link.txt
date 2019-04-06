@@ -1,0 +1,10 @@
+https://chatsummarizer.herokuapp.com/api  ===============> Send json post request of the type
+
+
+{
+	"data":"Whats up man. Hi. Hello There. We have a meeting at 9 in the morning. Hurry Up You are neede here. Come on come soon you idiot amd scientis. "
+	
+}
+
+
+and json response will be delivered
