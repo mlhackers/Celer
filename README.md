@@ -1,5 +1,8 @@
 # Celer
 A Chat Analytics App
+![Logo](images/Celer_logo.png)
+
+
 
 Download Celer and get instant summarization on hundreds of unseen chat messages.
 
