@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[46]:
-
-
 from flask import Flask,jsonify,abort,make_response,request,url_for
 import pickle
 import numpy as np
@@ -16,16 +13,6 @@ from collections import defaultdict
 # with open("iris_pred.pkl","rb") as mymodel:
 #     mymodel = pickle.load(mymodel)
 
-
-# In[42]:
-
-
-
-
-
-# In[ ]:
-
-
 app = Flask(__name__)
 
 
@@ -37,20 +24,6 @@ def model_predicts():
     print(y_response)
 
     return jsonify({'results':y_response})
-
-# if __name__=='__main__':
-#     app.run(port=9000)
-    
-
-
-# In[ ]:
-
-
-
-
-
-# In[47]:
-
 
 def mysum(cont):
     
@@ -119,10 +92,6 @@ def summarize(ranks, sentences, length):
     indexes = nlargest(length, ranks, key=ranks.get)
     final_sentences = [sentences[j] for j in sorted(indexes)]
     return ' '.join(final_sentences) 
-
-
-# In[ ]:
-
 
 
 
