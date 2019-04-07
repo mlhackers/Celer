@@ -1,6 +1,9 @@
 # Celer
 A Chat Analytics App
-![Logo](images/Celer_logo.png)
+
+
+
+<img src="images/Celer_logo.png" width=300 height=300 />
 
 
 
